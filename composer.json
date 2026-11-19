@@ -80,7 +80,6 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
         ],
         "post-update-cmd": [
-            "@php artisan vendor:publish",
             "@php artisan boost:update --ansi"
         ],
         "post-root-package-install": [
